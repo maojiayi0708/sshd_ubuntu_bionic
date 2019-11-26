@@ -1,4 +1,4 @@
-FROM daocloud.io/library/ubuntu:latest
+FROM ubuntu:bionic
 LABEL Author=maojy
 
 ADD sources.list /etc/apt/sources.list
